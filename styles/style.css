@@ -1,0 +1,54 @@
+/*Defining font Nunito*/
+@font-face {
+  font-family: Nunito;
+  src: url(../Font/Nunito-Regular.ttf);
+}
+
+/* This adds image to back of Header 1 */
+.heading {
+  background-image: url("../images/palm.png");
+  background-size auto;
+  height: 400px;
+  width: 925px;
+  color: white;
+  font-family: Nunito;
+  font-size: 35px;
+  padding-top: 150px;
+  padding-left: 40px;
+
+
+}
+
+/* This makes the search Div gray */
+.search {
+  background-color:#333333;
+  height: 200px;
+  width: 970px;
+  border-radius: 25px;
+}
+
+
+/* This makes the container background grey */
+.search input[type=text] {
+    background-color: lightgray
+}
+
+/* This changes the search button to orange */
+.search #button {
+  background-color: orange;
+}
+
+/* This is a Flexbox */
+.row {
+    display: flex;
+    max-width: 750px;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.column img {
+    max-width: 100%;
+}
